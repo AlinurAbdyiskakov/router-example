@@ -8,6 +8,6 @@ const Contacts = () => {
 }
  
 export default Contacts;
-import classes from "./Cantacts.module.css";
+
 
 

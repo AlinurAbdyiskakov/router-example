@@ -8,6 +8,6 @@ const About = () => {
 }
  
 export default About;
-import classes from "./About.module.css";
+
 
 
