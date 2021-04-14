@@ -6,7 +6,7 @@ const Cantacts = ({  }) => {
   return (
     <div className={classes.Cantacts}>
      <h1>Cantacts</h1> 
-     <p>loremghjkjhghjkhgjk</p>
+     <p>the chnage add new file</p>
      
     </div>
   );

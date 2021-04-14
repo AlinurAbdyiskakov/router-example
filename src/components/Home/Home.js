@@ -6,7 +6,7 @@ const Home = ({  }) => {
   return (
     <div className={classes.Home}>
      <h1>Home</h1> 
-     <p>loremghjkjhghjkhgjk</p>
+     <p>in the home add new icon</p>
      
     </div>
   );

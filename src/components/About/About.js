@@ -6,7 +6,7 @@ const About = ({  }) => {
   return (
     <div className={classes.About}>
      <h1>About</h1> 
-     <p>loremghjkjhghjkhgjk</p>
+     <p>the Alinur  all the web-side</p>
      
     </div>
   );
