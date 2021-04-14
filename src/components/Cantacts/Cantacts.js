@@ -1,13 +1,15 @@
-import classes from "Contacts.module.css";
+import classes from "./Cantacts.module.css";
 
-const Contacts = () => {
-    return ( <div className={classes.Contacts}>
-        <h1>Cantacts</h1> 
-     <p>the chnage add new file</p>
-     </div> );
+
+const Cantacts = () => {
+
+  return (
+    <div className={classes.Cantacts}>
+     <h1>Home</h1> 
+     <p>loremghjkjhghjkhgjk</p>
+
+    </div>
+  );
 }
- 
-export default Contacts;
 
-
-
+export default Cantacts; 
