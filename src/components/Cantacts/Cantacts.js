@@ -5,7 +5,7 @@ const Cantacts = ({  }) => {
   
   return (
     <div className={classes.Cantacts}>
-     <h1>Home</h1> 
+     <h1>Cantacts</h1> 
      <p>loremghjkjhghjkhgjk</p>
      
     </div>
