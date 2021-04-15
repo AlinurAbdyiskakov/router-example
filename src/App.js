@@ -5,6 +5,8 @@ import Jaz from"./components/Jaz/Jaz";
 import Rep from "./components/Rep/Rep"
 import Bass from "./components/Bass/Bass"
 import Mashina from"./components/Mashina/Mashina";
+import Jam from"./components/Jam/Jam";
+
 
 import {Route} from "react-router";
 import { Link } from "react-router-dom";
@@ -22,11 +24,11 @@ function App() {
      
    </div>
    <div className="Drower">
-   <Link to="/jaz">Jaz</Link>
-       <Link to="/rep">Rep</Link>
+   <Link to="/jaz">Джаз</Link>
+       <Link to="/rep">Хип-хоп-музыка</Link>
        <Link to="/mashina">Эектроная музука</Link>
        <Link to="/bass">Басс</Link>
-       <Link to="/jam">Джаз</Link>
+       <Link to="/jam">Ара́бская му́зыка</Link>
        <Link to="/cantacts">Cantacts</Link>
    </div>
    <div className="dom">
@@ -36,6 +38,7 @@ function App() {
       <Route path="/jaz" component={Jaz}/>
       <Route path="/bass" component={Bass}/> 
       <Route path="/rep" component={Rep}/> 
+      <Route path="/jam" component={Jam}/> 
       <Route path="/mashina" component={Mashina}/></div>  
 
 
