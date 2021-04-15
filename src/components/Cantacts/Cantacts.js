@@ -5,8 +5,8 @@ const Cantacts = () => {
 
   return (
     <div className={classes.Cantacts}>
-     <h1>Home</h1> 
-     <p>loremghjkjhghjkhgjk</p>
+     <h1>Cantacts</h1> 
+    <input type="search" placeholder="the tell number"></input>
 
     </div>
   );
